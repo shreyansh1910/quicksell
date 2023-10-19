@@ -1,0 +1,17 @@
+.display{
+    background-color: rgb(245, 244, 244);
+    max-width: 200px;
+    width:30%;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px;
+    position:fixed;
+    top:60px;
+    left:20px;
+
+}
+.select-heading{
+    width: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+}

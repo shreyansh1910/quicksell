@@ -1,0 +1,69 @@
+.card {
+    width: 300px;
+    min-height: 110px;
+  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    word-wrap: break-word;
+    background-color: white;
+  
+  }
+
+  .card-id {
+    font-size: 16px;
+    padding: 10px;
+    color: #666;
+    width: 100px;
+  }
+  
+  .card-title {
+    padding-left: 10px;
+    color: #070707;
+    word-wrap: break-word;
+  }
+  .card-tag {
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+    word-wrap: break-word;
+    display: flex;
+  }
+  .exclamation{
+    width: 19px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: #a39c9c;
+    padding-top: 3px;
+  }
+  .feature{
+   width: fit-content;
+  margin-left: 20px;
+  min-height: 23px;
+  height: fit-content;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  word-wrap: break-word;
+  }
+
+  .tag-text{
+    margin-left: 25px;
+    margin-right: 5px;
+    word-wrap: break-word;
+  }
+
+  .circle{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgb(124, 121, 121);
+    margin-top: 5px;
+    float: left;
+  }
+

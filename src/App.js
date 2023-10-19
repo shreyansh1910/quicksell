@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import DataProcessing from "./components/Processdata";
+import DropdownMenu from "./components/display";
 
 function App() {
+  const [show, setShow] = useState(false);
+
+  function showfun() {
+    setShow(!show);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div>
+        <div className="button" onClick={showfun}>
+          <i class="fa-solid fa-list"></i> Display
+        </div>{" "}
+      </div>
+      {show && <DropdownMenu show={setShow} />}
+      <DataProcessing />
     </div>
   );
 }
